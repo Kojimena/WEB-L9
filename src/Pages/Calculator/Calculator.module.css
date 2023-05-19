@@ -1,0 +1,23 @@
+.container{
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    height: 550px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 340px;
+}
+
+.buttons{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
