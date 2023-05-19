@@ -29,3 +29,21 @@
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
 }
+
+.title{
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
