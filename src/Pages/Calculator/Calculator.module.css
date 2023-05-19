@@ -1,7 +1,7 @@
 .container{
     align-content: flex-start;
     align-items: flex-start;
-    background-color: #202020;
+    background-image: linear-gradient(to bottom, #d16b6b, #d65c7b, #d25193, #c24eb0, #a056cf, #7e63d8, #556ddd, #0074dc, #0076c3, #00729e, #006a78, #055f59);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,6 +11,9 @@
     margin: 0 auto;
     overflow: hidden;
     width: 340px;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+    border-radius: 10px;
 }
 
 .buttons{
@@ -20,4 +23,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    background-color: #ffffff4d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 }

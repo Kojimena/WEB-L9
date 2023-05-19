@@ -1,5 +1,4 @@
 button.number{
-    border: 0;
     cursor: pointer;
     display: block;
     font-size: 32px;
@@ -12,9 +11,16 @@ button.number{
     width: 85px;
     transition: opacity .2s ease-out;
     font-family: 'Roboto', sans-serif;
-    background-color: #c7c7c7;
     color: #424346;
-    outline: 1px solid #949599;
+    outline: 1px solid #ffffff6e;
+    border: 1px solid transparent;
+    background-color: #ffffff00;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    backdrop-filter: blur(6px);
+    transition: all 0.2s ease-in-out;
+    will-change: auto;
 }
 
 button.number:hover{
@@ -26,11 +32,8 @@ button.number:active{
 }
 
 button.operator {
-    background-color: #f98410;
-    color: #fff6f9;
     flex-grow: 1;
     font-size: 36px;
-    outline: 1px solid #ca5200;
     font-weight: 100;
     border: 0;
     cursor: pointer;
@@ -43,8 +46,15 @@ button.operator {
     padding: 0;
     text-align: center;
     width: 85px;
-    transition: opacity .2s ease-out;
     font-family: 'Roboto', sans-serif;
+    background-color: #ffffff4d;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    user-select: none;
+    backdrop-filter: blur(6px);
+    transition: all 0.2s ease-in-out;
+    will-change: auto;
 }
 
 button.operator:hover{

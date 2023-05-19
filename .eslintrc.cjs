@@ -18,5 +18,6 @@ module.exports = {
     "max-len": ["warn", { code: 120 }],
     quotes: ["error", "double"],
     "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
   },
 }
