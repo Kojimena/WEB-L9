@@ -14,6 +14,7 @@
     transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
     box-shadow: rgba(229, 226, 226, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
     border-radius: 10px;
+    border : 2px solid #ffffff;
 }
 
 .buttons{
