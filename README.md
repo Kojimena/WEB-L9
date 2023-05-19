@@ -16,8 +16,10 @@
 (30 puntos) Por implementar la operación "división". Tomen nota que la regla de los 9 caracteres sigue en pie y es un requerimiento. Presten especial a resultados continuos o con muchos decimales (eg, 22/7).
 
 (10 puntos) Por implementar la operación "modulo".
-
 ´´´
+
+![Test and Lint](https://github.com/Kojimena/WEB-L9/blob/main/public/testandlint.png "Tests y Lint")
+
 
 
 
