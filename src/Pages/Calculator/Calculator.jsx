@@ -17,7 +17,37 @@ const Calculator = () => {
 
   const handleOperatorClick = (value) => {
     if (current === "" && value !== "−") return
-    setPrevious(current)
+    let tempCurrent = current
+    if (previous !== null && operation !== null) {
+      const numCurrent = parseFloat(tempCurrent)
+      const numPrevious = parseFloat(previous)
+      let result
+      switch (operation) {
+        case "+":
+          result = numPrevious + numCurrent
+          break
+        case "−":
+          result = numPrevious - numCurrent
+          break
+        case "×":
+          result = numPrevious * numCurrent
+          break
+        case "÷":
+          if (numCurrent === 0) {
+            setCurrent("ERROR")
+            return
+          }
+          result = numPrevious / numCurrent
+          break
+        case "%":
+          result = numPrevious % numCurrent
+          break
+        default:
+          return
+      }
+      tempCurrent = String(result).slice(0, 9)
+    }
+    setPrevious(tempCurrent)
     setCurrent("")
     setOperation(value)
   }
